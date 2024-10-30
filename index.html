@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Product Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-indigo-600 text-white py-4 shadow-md fixed top-0 left-0 right-0 z-10">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Modern Store</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="hover:text-indigo-200 nav-item" data-page="home">Home</a></li>
+                    <li><a href="#" class="hover:text-indigo-200 nav-item" data-page="products">Products</a></li>
+                    <li><a href="#" class="hover:text-indigo-200 nav-item" data-page="about">About</a></li>
+                    <li><a href="#" class="hover:text-indigo-200 nav-item" data-page="contact">Contact</a></li>
+                    <li><a href="#" class="hover:text-indigo-200 nav-item" data-page="cart"><i class="fas fa-shopping-cart"></i> Cart <span id="cart-count" class="bg-white text-indigo-600 rounded-full px-2 py-1 text-xs">0</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-8 mt-20">
+        <div id="main-content">
+            <!-- Content will be dynamically inserted here -->
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8 mt-16">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; MADE WITH LOVE BY AG</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+ 
+</body>
+</html>
